@@ -25,7 +25,7 @@ Now we open the next stage: a **panel and live experiment** connecting **San Fra
 This will be an embodied telepresence forum where makers become performers, code becomes choreography, and conversation becomes a bridge.
 
 This is not merely a meeting — it is an experimental stage:
-- 5–10 participants from each site (rotating panelists)  
+- 2–3 participants from each site (rotating panelists)  
 - A mix of demos, micro-performances, and open design critiques  
 - Live experiments in latency, presence, and material storytelling
 

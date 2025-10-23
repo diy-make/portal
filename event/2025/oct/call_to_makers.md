@@ -15,7 +15,7 @@ between the maker collectives of **San Francisco** and **Roatán**.
 
 ### 📜 Precedent: The NYC–Dublin Portal
 
-The **NYC–Dublin** portal already exists as a working proto-portal — a living precedent, a pair of towers stitched by performance and signal. We honor that lineage and take inspiration from its theatrical telepresence.
+The **NYC–Dublin** portal already exists as a working portal — a living precedent, a pair of towers stitched by performance and signal. We honor that lineage and take inspiration from its theatrical telepresence.
 
 ---
 

@@ -84,3 +84,44 @@ The phrase **“Between the Two Towers”** is a deliberate meme: equal parts my
 
 ## LICENSE
 This manifesto and recipes live as commons — use, remix, and push back. Prefer: `CC BY-SA 4.0`.
+
+## How PortalTech is *Cosmolocal*
+
+**Cosmolocalism** — “design global, manufacture local” — is about sharing designs, knowledge, and protocols globally while producing, adapting, and stewarding them locally. PortalTech maps cleanly onto this model: our scores, protocols, and artifacts travel as commons; each node (SF, Roatán, and peers) enacts and adapts them to place.
+
+### Key principles
+
+- **Shared designs, local enactment (DGML).**  
+  Publish portal *scores* (performance scripts, staging recipes, artifact blueprints). Each node runs its own instantiation tuned to local bandwidth, culture, and material constraints.
+
+- **Commons-based governance.**  
+  Protocols, moderation rubrics, and session templates live under an open license so communities can steward and remix them rather than being locked into centralized platforms.
+
+- **Modular, resilient infrastructure.**  
+  Build small, test often: low-bandwidth modes, local caching, offline-first artifacts, and physical tokens that carry state between sessions. Reduce single-point cloud dependence.
+
+- **Cultural reciprocity & place-sensitivity.**  
+  Portal exchanges must favor two-way flows: shared curation, bilingual formats, credit/compensation structures that return value locally, and active practices for cultural care.
+
+- **Repeatability over spectacle.**  
+  Ship reproducible recipes (one-page deploys, quickstart demos, low-bandwidth fallbacks) instead of one-off dazzlements. Make the portal *teachably* portable.
+
+---
+
+### Practical checklist (copy into playbooks / README)
+
+1. **Publish canonical scores** — markdown + media + quickstart under `CC BY-SA` (or your chosen commons license).  
+2. **Version artifacts as recipes** — each recipe = 1-page deploy + 5-min demo + low-bandwidth fallback.  
+3. **Localize with a Place Note** — node lead writes short constraints & culture notes (language, time zones, bandwidth, materials).  
+4. **Shared governance** — rotating moderators, simple contributor agreement, issues/recipe board in repo.  
+5. **Tooling defaults** — prefer WebRTC with relay fallback, audio-first flows, small binaries, and physical tokens (zines, stickers, USB “scores”).  
+6. **Reciprocity ledger** — track contributions, credits, and how value flows back to local nodes.  
+7. **Archive scores & artifacts** — tag by `node`, `bandwidth-profile`, `recipe-version` for reproducibility.  
+
+---
+
+### Paste-ready: Telegram one-liner
+
+> PortalTech: share the score, run it locally — SF ↔ Roatán is a cosmolocal prototype: global designs, local enactments, commons governance. Reply to join a node.
+
+---

@@ -27,17 +27,9 @@ The phrase **“Between the Two Towers”** is a deliberate meme: equal parts my
 - **Mirrorhouses** — mixed media installations that translate latency, echo, and reflection into performative affordances.  
 - **Ethics & Repeatability** — affordances for low-bandwidth dignity, cultural reciprocity, and modular openness.
 
-## The PAPS
+## 🎥 The PAPS
 
 <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/cf578957-2929-46d2-b4ae-34eba58d8e86" />
-
----
-
-## 🎥 Reference Resonances
-
-1. *Mental memory emancipation* — the portal as plucked string; memory as instrument.  
-2. *House of mirrors physics engine* — the portal as simulation and recursive play.  
-(links and multimedia live in `/media`)
 
 ---
 

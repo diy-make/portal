@@ -109,3 +109,4 @@ Your next portal adventure doesn’t need a spaceship—just a Makerspace and a 
 * Kyle emphasized the purpose of showcasing the portal between the two Makerspaces using Peace Arch Portal Systems (PAPS) tech.
 * The PAPS openings are CST at Prospera and PST at Frontier SF.
 * TuneYard recommended for streaming, with walk-throughs of each Makerspace's portal included.
+* This first portal event is literally a fancy dress up panel discussion. Hard enough to connect 2 portal hubs at all!

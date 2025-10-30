@@ -32,7 +32,7 @@ Drawing inspiration from the Dublin–NYC portal, this live link will symbolize 
 
 ## 🎥 Visual Concepts
 
-1. <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/e56221c5-6f4d-4a82-b2dd-20f4fa11c5a2" />  
+1. <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe17105b-95d0-42ae-88db-85f432811fe7" />
 2. <img width="534" height="348" alt="image" src="https://github.com/user-attachments/assets/853255ea-e17d-475b-91c9-4dfa6a85ad2d" />  
 3. <img width="446" height="620" alt="image" src="https://github.com/user-attachments/assets/be6dad2f-cbfa-4215-b9c2-e530b44b7042" />  
 4. <img width="791" height="743" alt="image" src="https://github.com/user-attachments/assets/53250dc2-a82d-4904-a5f2-927b97a49e7a" />  

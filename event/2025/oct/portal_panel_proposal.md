@@ -32,22 +32,23 @@ Drawing inspiration from the Dublin–NYC portal, this live link will symbolize 
 
 ## 🎥 Visual Concepts
 
-1. <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe17105b-95d0-42ae-88db-85f432811fe7" />
-2. <img width="534" height="348" alt="image" src="https://github.com/user-attachments/assets/853255ea-e17d-475b-91c9-4dfa6a85ad2d" />  
-3. <img width="446" height="620" alt="image" src="https://github.com/user-attachments/assets/be6dad2f-cbfa-4215-b9c2-e530b44b7042" />  
-4. <img width="791" height="743" alt="image" src="https://github.com/user-attachments/assets/53250dc2-a82d-4904-a5f2-927b97a49e7a" />  
-5. <img width="1080" height="650" alt="image" src="https://github.com/user-attachments/assets/be908f8e-65f0-4dd4-9875-2df4b65b320f" />   
-6. <img width="496" height="240" alt="image" src="https://github.com/user-attachments/assets/cd66ed3f-a4d2-41ca-8a29-391b06953f98" />  
-7. <img width="403" height="571" alt="image" src="https://github.com/user-attachments/assets/376381eb-c37d-496d-83a5-5b575379cbc1" />  
-8. <img width="423" height="499" alt="image" src="https://github.com/user-attachments/assets/5a95f625-cfb8-42e5-a5f1-107668f1743c" />  
+01. <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe17105b-95d0-42ae-88db-85f432811fe7" />
+02. <img width="534" height="348" alt="image" src="https://github.com/user-attachments/assets/853255ea-e17d-475b-91c9-4dfa6a85ad2d" />  
+03. <img width="446" height="620" alt="image" src="https://github.com/user-attachments/assets/be6dad2f-cbfa-4215-b9c2-e530b44b7042" />  
+04. <img width="791" height="743" alt="image" src="https://github.com/user-attachments/assets/53250dc2-a82d-4904-a5f2-927b97a49e7a" />  
+05. <img width="1080" height="650" alt="image" src="https://github.com/user-attachments/assets/be908f8e-65f0-4dd4-9875-2df4b65b320f" />
+06. <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1d50f9c1-7e0d-498d-818a-4ca0feba9815" />
+07. <img width="496" height="240" alt="image" src="https://github.com/user-attachments/assets/cd66ed3f-a4d2-41ca-8a29-391b06953f98" />  
+08. <img width="403" height="571" alt="image" src="https://github.com/user-attachments/assets/376381eb-c37d-496d-83a5-5b575379cbc1" />  
+09. <img width="423" height="499" alt="image" src="https://github.com/user-attachments/assets/5a95f625-cfb8-42e5-a5f1-107668f1743c" />  
    * [YouTube Demo](https://youtu.be/xJYbv5_9POg)  
    * [MyMiniFactory Portal Collection](https://www.myminifactory.com/frontier/calling-portals-1438)  
-9. <img width="1568" height="563" alt="image" src="https://github.com/user-attachments/assets/ef3ee163-dd91-4f06-8d50-cb5e102491f4" />  
-10. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/077df538-3253-4e7f-bddf-ca7e0f77ee62" />  
-11. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/dd7c908b-83c8-4805-99c2-c6f75dfb374b" />
-12. <img width="487" height="542" alt="image" src="https://github.com/user-attachments/assets/9f86f9bc-20b5-4d16-ab09-a46ef929d326" />
-13. <img width="407" height="621" alt="image" src="https://github.com/user-attachments/assets/abffd42f-244a-4c89-aba3-648ef751b65f" />
-14. <img width="1536" height="1024" alt="valor for sale" src="https://github.com/user-attachments/assets/04a6c923-46ca-40cd-a395-3808907dc0d1" />
+10. <img width="1568" height="563" alt="image" src="https://github.com/user-attachments/assets/ef3ee163-dd91-4f06-8d50-cb5e102491f4" />  
+11. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/077df538-3253-4e7f-bddf-ca7e0f77ee62" />  
+12. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/dd7c908b-83c8-4805-99c2-c6f75dfb374b" />
+13. <img width="487" height="542" alt="image" src="https://github.com/user-attachments/assets/9f86f9bc-20b5-4d16-ab09-a46ef929d326" />
+14. <img width="407" height="621" alt="image" src="https://github.com/user-attachments/assets/abffd42f-244a-4c89-aba3-648ef751b65f" />
+15. <img width="1536" height="1024" alt="valor for sale" src="https://github.com/user-attachments/assets/04a6c923-46ca-40cd-a395-3808907dc0d1" />
 
 ---
 

@@ -47,7 +47,7 @@ Drawing inspiration from the Dublin–NYC portal, this live link will symbolize 
 11. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/dd7c908b-83c8-4805-99c2-c6f75dfb374b" />
 12. <img width="487" height="542" alt="image" src="https://github.com/user-attachments/assets/9f86f9bc-20b5-4d16-ab09-a46ef929d326" />
 13. <img width="407" height="621" alt="image" src="https://github.com/user-attachments/assets/abffd42f-244a-4c89-aba3-648ef751b65f" />
-
+14. <img width="1536" height="1024" alt="valor for sale" src="https://github.com/user-attachments/assets/04a6c923-46ca-40cd-a395-3808907dc0d1" />
 
 ---
 

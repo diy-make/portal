@@ -1,13 +1,13 @@
-# 🌐 Establishing the Peace Arch Portal System  
-### Between Founding Nodes DUNA (Roatán) & Frontier Tower (San Francisco)  
-**🗓️ Thursday, November 6 — 6PM Roatán / 7PM SF**
+# 🌐 Establishing the Peace Arch Portal System
+### Between Founding Nodes DUNA (Roatán) & Frontier Tower (San Francisco) ; Founder Haus too?
+**🗓️ TBD**
 
 ---
 
 ## 🎩 Event Overview
 
 **Title Suggestion:**  
-> *Portals, Protocols, and People: Connecting the First Network States*  
+> *Portals, Protocols, and People: Connecting the First Network States*
 *(Alternative titles welcome — open to refinement.)*
 
 **Event Type:** Fancy Dress-Up Party & Panel Discussion  
@@ -46,6 +46,8 @@ Drawing inspiration from the Dublin–NYC portal, this live link will symbolize 
 10. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/077df538-3253-4e7f-bddf-ca7e0f77ee62" />  
 11. <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/dd7c908b-83c8-4805-99c2-c6f75dfb374b" />
 12. <img width="487" height="542" alt="image" src="https://github.com/user-attachments/assets/9f86f9bc-20b5-4d16-ab09-a46ef929d326" />
+13. <img width="407" height="621" alt="image" src="https://github.com/user-attachments/assets/abffd42f-244a-4c89-aba3-648ef751b65f" />
+
 
 ---
 

@@ -1,0 +1,217 @@
+{
+  "rules": [
+    {
+      "name": "git_methodology",
+      "description": "Rules for Git repository management.",
+      "security_policy": {
+        "rule": "Ensure no private keys, secrets, or other sensitive credentials are ever committed to the repository."
+      },
+      "initialization": {
+        "branches": [
+          "main",
+          "stage"
+        ]
+      },
+      "commit_policy": {
+        "target_branch": "main",
+        "auto_propose_commit": true,
+        "condition": "After making and verifying a change. This includes changes made during iterative refinement, unless explicitly instructed otherwise by the user."
+      },
+      "merge_policy": {
+        "source_branch": "stage",
+        "target_branch": "main",
+        "responsibility": "user",
+        "condition": "After significant milestones and when stage is stable."
+      },
+      "pre_publish_security_check": {
+        "rule": "Always perform a security check for sensitive information before publishing externally.",
+        "procedure": [
+          "Scan all tracked files for keywords such as 'key', 'secret', 'password', 'token', 'private'.",
+          "Manually review files that are likely to contain sensitive information, such as configuration files.",
+          "Ensure that no private keys or credentials are present in the repository."
+        ]
+      },
+      "security_best_practices": {
+        "description": "Best practices to prevent secrets from being committed to the repository.",
+        "practices": [
+          {
+            "name": "Use .gitignore",
+            "description": "Add sensitive files and directories (e.g., .env, config.yml, secrets.json, API key files) to your .gitignore file to prevent Git from tracking them."
+          },
+          {
+            "name": "Use Environment Variables",
+            "description": "Never hardcode secrets directly into your source code. Instead, store them as environment variables and load them from untracked files (e.g., .env) during development."
+          },
+          {
+            "name": "Use Secret Management Tools",
+            "description": "For production and shared development environments, use robust secret management solutions like AWS Secrets Manager, HashiCorp Vault, or GitHub's repository secrets."
+          },
+          {
+            "name": "Use Pre-commit Hooks",
+            "description": "Implement pre-commit hooks to automatically scan for secrets before a commit is finalized. This is a critical line of defense to prevent accidental commits of sensitive data."
+          },
+          {
+            "name": "Remediation Plan",
+            "description": "If a secret is accidentally committed, assume it is compromised. Immediately revoke and rotate the exposed secret, and then remove it from the Git history using tools like git filter-repo."
+          }
+        ]
+      },
+      "ignored_files_commit_nuance": {
+        "description": "Files in directories ignored by .gitignore (like .chat/) should not be committed, even if modified. The 'always commit' rule is nuanced for such cases.",
+        "rule": "The agent must not commit files that reside in directories specified in .gitignore, even if those files are modified. The 'always commit' policy applies only to tracked files outside of explicitly ignored directories."
+      },
+      "gemini_directory_gitignore": {
+        "description": "The .gemini/ directory should be included in the .gitignore file to prevent user-specific configuration from being committed to the repository.",
+        "rule": "Ensure that the .gemini/ directory is listed in the top-level .gitignore file."
+      },
+      "chat_repository": {
+        "description": "The .chat/ directory is a separate Git repository for storing chat logs and related data.",
+        "rule": "The agent must handle the .chat/ repository independently from the main repository. This includes making commits to the .chat/ repository to track changes to chat logs."
+      }
+    },
+    {
+      "name": "code_generation_policy",
+      "description": "Rules for generating code, including commenting conventions.",
+      "code_reduction_explanation": {
+        "rule": "If a code modification results in a reduction of logic or lines of code by more than 20%, provide a brief explanation for the reduction.",
+        "threshold": 0.2
+      },
+      "metadata_preservation": {
+        "rule": "Descriptive comment blocks (like MCP models) at the beginning of files must be preserved during modifications."
+      },
+      "commenting_conventions": {
+        "rule": "All generated code should include context comments.",
+        "details": [
+          "At the beginning of a module, include a comprehensive outline of the module's purpose, main functions, and overall structure.",
+          "Within modules, add comments to explain complex logic, non-obvious decisions, or critical sections of code."
+        ]
+      },
+      "failed_attempt_handling": {
+        "description": "Policy for handling failed attempts at generating scripts or code.",
+        "rules": [
+          "When a script fails, comment out the old code in the same file, add the new corrected code, and at the top of the file, add a JSON object as a multi-line comment that summarizes the learning from the failed attempt, including the error, the fix, and a version number for the attempt."
+        ]
+      },
+      "temporary_scripts_policy": {
+        "rule": "Temporary scripts used for recurring tasks should be made permanent and committed to the repository.",
+        "rationale": "To prevent loss of work and ensure reusability of automation scripts."
+      },
+      "html_header_caution": {
+        "rule": "Be careful when adding headers to HTML files to not break the HTML structure.",
+        "rationale": "To maintain valid HTML and ensure proper rendering."
+      },
+      "mcp_header_policy": {
+        "rule": "All configuration and script files must have an MCP header. This header should be a multi-line comment at the top of the file, containing a JSON object that describes the file's purpose, inputs, outputs, and any other relevant information, such that another agent could reproduce the file from the header.",
+        "categories": {
+          "include": [
+            "Configuration",
+            "Scripts"
+          ],
+          "exclude": [
+            "Documentation",
+            "Other"
+          ]
+        }
+      },
+      "structured_commenting_convention": {
+        "rule": "When documenting code, use the structured comment format defined in `domain_specific_knowledge.json`.",
+        "format": {
+          "title": "[Title] : Heading",
+          "section": "[Section] : Section Name",
+          "subsection": "[Subsection] : Subsection Name"
+        }
+      }
+    },
+    {
+      "name": "session_behavior",
+      "description": "Rules for session behavior, including command interpretation, feedback, backup, and communication.",
+      "command_interpretation": {
+        "strategy": "ordered_fallback_with_mcp",
+        "steps": [
+          "If the prompt is '$$', list all available aliases from .gemini/mcp.json.",
+          "If the prompt is '$', list all available shell commands and aliases from .gemini/mcp.json.",
+          "If the prompt starts with '$' or is enclosed in backticks (`), treat it as a command and extract the command name and arguments.",
+          "  - First, attempt to execute it as a direct shell command.",
+          "  - If it is not a shell command, look up the command name as an alias in .gemini/mcp.json.",
+          "    - If a matching alias is found:",
+          "If the alias 'action' is 'create_json_punchcard', generate a summary of the current session's activities and the user's contributions. Use this summary to populate the 'title' and 'achieved' fields of a new rich JSON punchcard file in the 'target_directory'. Other fields will be initialized with default or placeholder values.",
+          "      - If the alias 'action' is 'execute_prompt', execute the 'prompt' value as a shell command.",
+          "If none of the above conditions are met, treat the entire prompt as a natural language request."
+        ]
+      },
+      "gemini_folder_reminder": {
+        "rule": "Before starting a new session with the 'gem' command, the user should be reminded to navigate to the `gemini/` folder.",
+        "rationale": "To ensure correct project context and prevent errors."
+      },
+      "design_principles_review": {
+        "rule": "Regularly review `design_principles.json` to ensure continuous adherence to core principles.",
+        "frequency_guidance": "Periodically, or when encountering ambiguity in behavior."
+      },
+      "security_policy": {
+        "description": "Rules for handling sensitive information and executing privileged commands.",
+        "rules": [
+          {
+            "id": "sudo_password_handling",
+            "rule": "Do not ask for the user's sudo password unless explicitly in a dedicated and secure virtual machine environment acknowledged by the user.",
+            "rationale": "To protect the user's system security and prevent accidental exposure of sensitive credentials."
+          }
+        ]
+      },
+      "feedback_integration_policy": {
+        "description": "Policy for integrating user feedback, especially corrections to behavioral or logical flaws.",
+        "rule": "When a user corrects a behavioral or logical flaw, proactively propose the exact JSON structure required to update configuration files (e.g., rules.json) to prevent recurrence, minimizing user effort in defining syntax. User preferences should be stored in the 'user_preferences' section."
+      },
+      "backup_retrieval_policy": {
+        "description": "Policy for retrieving file backups.",
+        "rule": "If a file is missing or a backup is needed, check the git history first before asking the user."
+      },
+      "induction": {
+        "description": "Guidance on applying inductive reasoning to prevent errors in command interpretation.",
+        "rule": "Inductive reasoning must ONLY be applied to the arguments of a command, not the command name itself. The command name requires an exact match.",
+        "example": "If the user types 'mv _gemini_chat.txt', infer 'mv *_gemini_chat.txt'. Do NOT infer 'mve' from 'mv'."
+      },
+      "exit_procedure": {
+        "commands": [
+          "/exit",
+          "/quit"
+        ],
+        "health_checks": [
+          "Verify that there are no open Git commits.",
+          "Check for any running background processes started by the agent.",
+          "Validate configuration files (rules.json, design_principles.json).",
+          "Review error_log for unaddressed errors.",
+          "Verify that commits are working correctly."
+        ],
+        "summary_action": "Summarize the current session's activities before exiting."
+      },
+      "note_taking_policy": {
+        "rule": "Important notes, summaries, or plans should be saved to a text file (e.g., session_notes.txt) for future reference and to ensure continuity.",
+        "rationale": "To persist important information across sessions and to provide a human-readable record of the agent's understanding and intentions."
+      },
+      "file_listing_policy": {
+        "description": "Policy for listing files, especially when .gitignore might be obscuring relevant files.",
+        "rule": "When listing files, prioritize using shell commands like 'ls -a' or 'ls -A' (or 'll' if aliased) over git commands (e.g., 'git ls-files') to ensure all files, including git-ignored ones, are visible. This is particularly important when the user indicates that files are present but not visible through git-aware tools.",
+        "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user."
+      },
+      "communication_protocol": {
+        "inter_agent_communication": {
+          "rule": "When communicating with other Gemini instances, always introduce yourself by your configured 'agent_id' and address the other agent by their identified 'agent_id'. Maintain a polite and collaborative tone.",
+          "details": "This includes initial greetings, acknowledgments, and task-related updates."
+        }
+      },
+      "output_chunking_policy": {
+        "description": "Policy for managing output size to prevent token limit overruns and optimize context usage.",
+        "single_file_processing": {
+          "rule": "When reading a single large file, read from the bottom up. Stop reading when approximately 50% of the available context window is filled. At this point, summarize the information read and explicitly prompt the user for further instructions (e.g., 'What would you like me to do next?').",
+          "threshold_guidance": "Approximately 50% of the available context window."
+        },
+        "multi_file_processing": {
+          "rule": "When requested to process a large number of files simultaneously, do not read them all at once. Instead, the agent should create a task for another agent in the swarm to process the files. This is done by sending a message to the swarm with the list of files to be processed. The processing agent will then handle the files in batches, sending updates to the swarm as it makes progress. This allows for iterative processing and prevents context overruns.",
+          "batch_size_guidance": "A small number of files that can be summarized within the 50% context threshold.",
+          "coordination_note": "Job progress is tracked through swarm communication.",
+          "continuous_processing_mode": false
+        }
+      }
+    }
+  ]
+}

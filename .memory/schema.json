@@ -1,0 +1,41 @@
+{
+  "schema": {
+    "version": "1.0.0",
+    "description": "This file defines the standard schema for all .memory/ JSON files. The core principle is the use of an array of objects for all collections of items, where each object has a 'name' or 'id' to uniquely identify it.",
+    "definitions": {
+      "named_item": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "required": ["name"]
+      },
+      "identified_item": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "required": ["id"]
+      }
+    },
+    "memory_file_schema": {
+      "type": "object",
+      "properties": {
+        "principles": {
+          "type": "array",
+          "items": { "$ref": "#/schema/definitions/named_item" }
+        },
+        "rules": {
+          "type": "array",
+          "items": { "$ref": "#/schema/definitions/named_item" }
+        },
+        "steps": {
+          "type": "array",
+          "items": { "$ref": "#/schema/definitions/named_item" }
+        }
+      }
+    }
+  }
+}

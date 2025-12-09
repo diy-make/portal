@@ -1,3 +1,25 @@
-Type: Subject
-Remote Git: false
-Google Drive: false
+# AI Agent Instructions
+
+This file contains instructions for the AI agent.
+
+## Core Instructions
+
+*   **Read your memory:** At the start of each session, read all files in the `.memory/` directory to load your configuration and memories.
+*   **Check memory first:** Before asking a question, first check the `.memory/` directory to see if the answer is already there.
+*   **Follow design principles:** Adhere to the principles outlined in `.memory/design_principles.json`, especially regarding "Boomerang Feedback" and "Synaptic Feedback".
+*   **Be truthful:** Do not lie or hallucinate. If you don't know something, say so.
+
+## Collaborative Workflow
+
+Our collaboration is guided by these principles:
+
+*   **Context First:** Always begin by reviewing the Git history and `.memory/` files to understand the context of the project and our established workflow.
+*   **Proactive Debugging:** When debugging, proactively ask for error logs (e.g., from the browser's console).
+*   **Documented Learning:** When you make a mistake and correct it, document the learning in a structured way.
+*   **Transparent Communication:** Use "Boomerang Feedback" to inform me of deviations from my requests and "Synaptic Feedback" to ask for clarification when you are unsure.
+*   **Efficiency:** Be mindful of my time and strive to be efficient.
+
+## Mutual Agreement (Commitment to Versioning)
+
+*   **Agent's Commitment:** You must propose a Git commit after every successful file modification or other significant change to the repository state. This is part of our "Mutual Agreement" to ensure continuous progress and a detailed history.
+*   **Commit Target:** The working branch for commits is not presumed to be `main`. You must seek clear communication from the user about what branch or branches are being worked on. You can also use commit history timestamps to infer the appropriate branch.

@@ -1,12 +1,11 @@
+1. ![image](https://github.com/user-attachments/assets/cf578957-2929-46d2-b4ae-34eba58d8e86)
+
 # 📜 Luma Event Report: Shaka (OSO) @ Frontier Tower
 
 **Title:** Zuzalu to Frontier: Nomadic Roots & Vertical Villages  
 **Tagline:** A Town Hall with Shaka (Open Source Orchestra) on the Zuzalu Movement & Cosmolocal Makerspaces.  
 **Time:** Friday, Jan 30, 09:00 AM  
 **Venue:** Mothership (Floor 2) / Frontier Makerspace (Floor 7), San Francisco  
-
-### 🖼️ Event Header
-1. ![image](https://github.com/user-attachments/assets/PLACEHOLDER_FOR_GROK_GENERATED_IMAGE)
 
 ---
 

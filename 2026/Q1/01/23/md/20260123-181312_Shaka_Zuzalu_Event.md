@@ -1,4 +1,4 @@
-1. ![image](../../../../../repos/diy-make/grok/png/20260123-181312_flux_generation.png)
+1. ![image](../png/20260123-181312_Shaka_Zuzalu_Event.png)
 
 # 📜 Luma Event Report: Shaka (OSO) @ Frontier Tower
 
@@ -30,8 +30,4 @@ Zuzalu was born as a pop-up mini-city experiment—a testing ground for network 
 - **10:30 AM:** Peace Circle Closing
 
 ---
-**🖼️ Header Image Prompt (Grok-Ready):**  
-> "Create a 16:9 aspect ratio image for the 'Zuzalu to Frontier Tower: Nomadic Roots & Vertical Villages' event header. In the center, the **Peace Circle** portal ring emits a soft, pulsing glow on Floor 2 of the **Mothership**. Large windows reveal the SF skyline at dawn. The space is integrated with **Makerspace** tools (3D printers, VR) and lush greenery. Shaka and a diverse group of Zuzaluans and makers are collaborating in a 'cathedral of technology' atmosphere. Photorealistic, cinematic lighting, warm ambient glow."
-
----
-**Attribution:** ApeOrchestrator (20260123-181312@localhost)
+**Attribution:** Cratylus (20260123-200037@localhost)

@@ -1,42 +1,37 @@
 {
   "wedo_instance": {
-    "id": "ZUZALU-TOWN-HALL-V1",
-    "description": "Luma event creation and boilerplate for Shaka's Zuzalu Town Hall at Frontier Tower.",
-    "status": "[ ]",
+    "id": "ZUZALU-TOWN-HALL-V1.1",
+    "description": "Refined Luma event boilerplate for Shaka (OSO) Town Hall.",
+    "status": "[x]",
     "meta": {
       "protocol": "WeDo-JSON",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "event_date": "2026-01-30T09:00:00",
       "venue": "Mothership (Floor 2) by Frontier Makerspace",
-      "speaker": "Shaka",
-      "philosophy": "Connecting the vertical village to its nomadic roots through the lens of Zuzalu and cosmolocal maker culture."
+      "speaker": "Shaka (Open Source Orchestra)",
+      "philosophy": "Bridging the Ethereum-native co-creation of OSO and Zuzalu with the physical fabrication of Frontier Tower."
     },
-    "luma_event_boilerplate": {
+    "luma_event_content": {
       "title": "Zuzalu to Frontier: Nomadic Roots & Vertical Villages",
-      "tagline": "A Town Hall with Shaka on the Zuzalu Movement and Cosmolocal Makerspaces.",
-      "description": "Join us at the Mothership (Frontier Tower, Floor 2) for an intimate session with Shaka as he shares his journey through the Zuzalu movement and the evolution of Zuzalu Town Halls.\n\n### Objectives:\n1. **Root Synchronization:** Connecting Frontier Tower to its Zuberlin origins by exploring the Zuzalu ethos of experimental living and network state coordination.\n2. **Town Hall Blueprint:** Establishing a repeatable boilerplate for Frontier Tower and Cosmolocal Makerspace (Make.DIY) Town Halls.\n\n### What to Expect:\n- **The Zuzalu Trace:** A first-hand account of the nomadic spirit and the lessons learned from global Zuzalu gatherings.\n- **Cosmolocalism in Action:** How 'designing global, manufacturing local' bridges the gap between digital-first communities and physical makerspaces.\n- **The Peace Circle Protocol:** A demonstration of the PAPS (Peace Arch Portal System) linkage as a stage for telepresence and cross-chain diplomacy.\n\n**Schedule:**\n- 09:00 AM: Coffee & Collective Ingestion (Arrival)\n- 09:15 AM: Shaka's Keynote: The Zuzalu Experience\n- 09:45 AM: Open Town Hall: Drafting the Frontier/Make.DIY Blueprint\n- 10:30 AM: Peace Circle Closing & Networking",
-      "image_prompt": "Generate an image of the historic convergence of Zuzalu and Frontier Tower, where the nomadic, experimental essence of Zuzalu blends with the innovative, high-tech vertical village of Frontier Tower. In the heart of the scene, the Peace Circle, a luminous portal ring, pulsates with a soft, ethereal glow, symbolizing the intersection of physical and virtual realms. The surrounding space is a dynamic fusion of cutting-edge lab equipment, including 3D printers and VR stations, alongside lush, verdant elements that evoke a sense of a communal garden. Depict a diverse, vibrant group of Zuzaluans and Frontier Makers engaged in collaborative activities, embodying the principles of cosmolocalism and network states. Lighting should be warm and inviting, with soft, ambient glows emanating from the Peace Circle and lab equipment."
+      "tagline": "A Town Hall with Shaka (Open Source Orchestra) on the Zuzalu Movement & Cosmolocal Makerspaces.",
+      "description": "Join us at the Mothership (Frontier Tower, Floor 2) for an intimate session with **Shaka**, the cultivator of **Open Source Orchestra (OSO)**, as he shares his journey through the Zuzalu movement and the evolution of collaborative co-creation.\n\n### 🌊 The Context\nZuzalu was born as a pop-up mini-city experiment in Montenegro—a testing ground for network states, longevity, and open technology. Shaka, through OSO, has been at the center of this movement, fostering a culture of Ethereum-native music and art co-creation at Devcon, Devconnect, and beyond.\n\n### 🔱 Objectives:\n1. **Root Synchronization:** Connecting Frontier Tower to its Zuberlin and OSO origins. We explore the Zuzalu ethos of experimental living and how it scales into a permanent 'vertical village' at 995 Market.\n2. **Town Hall Blueprint:** Establishing a repeatable boilerplate for Frontier Tower and Cosmolocal Makerspace (Make.DIY) Town Halls, focusing on the synergy between digital-first communities and physical fabrication.\n\n### 🎥 What to Expect:\n- **The Zuzalu Trace:** A first-hand account of the nomadic spirit and the lessons learned from global Zuzalu gatherings, filtered through the lens of OSO's collaborative systems.\n- **Cosmolocalism in Action:** How 'designing global, manufacturing local' bridges the gap between digital-first communities and physical makerspaces.\n- **The Peace Circle Protocol:** A demonstration of the PAPS (Peace Arch Portal System) linkage as a stage for telepresence and cross-chain diplomacy.\n\n### 🧭 Schedule:\n- **09:00 AM:** Coffee & Collective Ingestion (Arrival)\n- **09:15 AM:** Shaka's Keynote: The OSO & Zuzalu Experience\n- **09:45 AM:** Open Town Hall: Drafting the Frontier/Make.DIY Blueprint\n- **10:30 AM:** Peace Circle Closing & Networking",
+      "image_prompt": "Generate a high-density image of the historic convergence of Zuzalu and Frontier Tower. In the heart of the scene, the Peace Circle (a luminous portal ring) pulsates with a soft, ethereal glow. The surrounding space (Mothership Floor 2) is a dynamic fusion of cutting-edge lab equipment from the 7th Floor Makerspace—3D printers, VR stations—and lush, verdant elements evoking a communal garden. Depict Shaka and a diverse group of Zuzaluans and Frontier Makers collaborating, embodying the principles of cosmolocalism and network states. The atmosphere is a 'cathedral of technology,' intimate and welcoming. Warm, ambient lighting."
     },
     "tasks": [
       {
-        "id": "EVENT-01",
-        "description": "Create Luma event using the boilerplate content.",
-        "status": "[ ]"
+        "id": "WEDO-01",
+        "description": "Perform external research on Shaka and OSO.",
+        "status": "[x]"
       },
       {
-        "id": "EVENT-02",
-        "description": "Generate event header image using the provided Groq-refined prompt.",
-        "status": "[ ]"
+        "id": "WEDO-02",
+        "description": "Synthesize Luma event content and report to user.",
+        "status": "[x]"
       },
       {
-        "id": "EVENT-03",
-        "description": "Share Luma link with the Frontier Tower and Zuzalu communities.",
-        "status": "[ ]"
-      },
-      {
-        "id": "BOILERPLATE-01",
-        "description": "Extract Town Hall structure from Shaka's talk into a permanent 'json/trunk/town_hall_standard.json' file.",
-        "status": "[ ]"
+        "id": "WEDO-03",
+        "description": "Finalize chrono-fractal history update.",
+        "status": "[x]"
       }
     ]
   },

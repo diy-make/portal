@@ -27,6 +27,21 @@ The phrase **“Between the Two Towers”** is a deliberate meme: equal parts my
 - **Mirrorhouses** — mixed media installations that translate latency, echo, and reflection into performative affordances.  
 - **Ethics & Repeatability** — affordances for low-bandwidth dignity, cultural reciprocity, and modular openness.
 
+---
+
+## 🏗️ Physical Nodes (Infrastructure)
+
+### Frontier Tower (San Francisco)
+Located at **995 Market Street**, Frontier Tower is a 16-story "vertical village" dedicated to frontier technologies, arts, and human coordination.
+- **The Spaceship & The Lounge (Floor 16):** Primary event venues for panels, demo days, and high-altitude curation.
+- **Frontier Makerspace (Floor 7):** The technical heart of the SF node; equipped with industrial 3D printers, laser cutters, and CNC machines for artifact fabrication.
+- **Themed Labs:** Eight floors of deep-tech and creative labs (AI, Crypto, Biotech, Neurotech).
+
+### Mothership (Mission District)
+A separate, vibrant venue located at **3152 Mission Street**. While independent of the Tower's tech-stack, it serves as a cultural anchor and "disco spaceship" social hub for the wider SF community.
+
+---
+
 ## 🎥 The PAPS
 
 <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/cf578957-2929-46d2-b4ae-34eba58d8e86" />

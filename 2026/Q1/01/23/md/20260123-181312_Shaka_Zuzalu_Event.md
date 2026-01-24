@@ -1,4 +1,4 @@
-1. ![image](https://github.com/user-attachments/assets/cf578957-2929-46d2-b4ae-34eba58d8e86)
+1. ![image](../../../../../repos/diy-make/grok/png/20260123-181312_flux_generation.png)
 
 # 📜 Luma Event Report: Shaka (OSO) @ Frontier Tower
 

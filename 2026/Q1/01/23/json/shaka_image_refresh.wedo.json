@@ -1,0 +1,44 @@
+{
+  "wedo_instance": {
+    "id": "SHAKA-IMAGE-REFRESH",
+    "description": "Refresh stale imagery in the Shaka (OSO) event report using Google Imagen 3 via existing auth substrate.",
+    "status": "[ ]",
+    "meta": {
+      "protocol": "Relay-WeDo",
+      "version": "1.0.0",
+      "mandates": [
+        "AUTH: Leverage the existing google/gemini-cli auth substrate (Workspace/GCP).",
+        "HITL: Halt for prompt approval and image verification.",
+        "POLISH: Ensure the image path in the markdown report is updated correctly."
+      ]
+    },
+    "tasks": [
+      {
+        "id": "AUTH-MAP",
+        "description": "Investigate gemini-cli source to identify the auth injection point for Imagen strikes.",
+        "status": "[x]"
+      },
+      {
+        "id": "PROMPT-GEN",
+        "description": "Draft a high-fidelity prompt for Shaka @ Frontier Tower.",
+        "status": "[x]"
+      },
+      {
+        "id": "STRIKE-EXEC",
+        "description": "Execute the Imagen 3 strike and secure the PNG artifact.",
+        "status": "[ ]"
+      },
+      {
+        "id": "MD-UPDATE",
+        "description": "Update the 20260123-181312_Shaka_Zuzalu_Event.md report with the new path.",
+        "status": "[ ]"
+      }
+    ],
+    "remediation_proposals": [],
+    "conclusion": {
+      "score": "2/10",
+      "steering_query": "Does the proposed prompt for the Imagen strike meet the 'Gold Standard' requirement?"
+    }
+  },
+  "attribution": "Iolaus (20260125-015000@localhost)"
+}

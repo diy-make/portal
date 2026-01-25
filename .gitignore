@@ -1,0 +1,4 @@
+secret/
+*.json
+!.gitignore
+!*.wedo.json

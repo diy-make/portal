@@ -1,0 +1,44 @@
+{
+  "wedo_instance": {
+    "id": "SHAKA-IMAGE-REFRESH",
+    "description": "Refresh stale imagery in the Shaka (OSO) event report using Google Imagen 3 via existing auth substrate.",
+    "status": "[x]",
+    "meta": {
+      "protocol": "Relay-WeDo",
+      "version": "1.0.0",
+      "mandates": [
+        "AUTH: Leverage the existing google/gemini-cli auth substrate (Workspace/GCP).",
+        "HITL: Halt for prompt approval and image verification.",
+        "POLISH: Ensure the image path in the markdown report is updated correctly."
+      ]
+    },
+    "tasks": [
+      {
+        "id": "AUTH-MAP",
+        "description": "Investigate gemini-cli source to identify the auth injection point for Imagen strikes. Substrate pivoted to Portal-specific credentials.",
+        "status": "[x]"
+      },
+      {
+        "id": "PROMPT-GEN",
+        "description": "Draft a high-fidelity prompt for Shaka @ Frontier Tower.",
+        "status": "[x]"
+      },
+      {
+        "id": "STRIKE-EXEC",
+        "description": "Execute the Imagen 3 strike and secure the PNG artifact. Result: Secured at 2026/Q1/01/25/png/20260125-031320_Shaka_Zuzalu_Event.png",
+        "status": "[x]"
+      },
+      {
+        "id": "MD-UPDATE",
+        "description": "Update the 20260125-031320_Shaka_Zuzalu_Event.md report with the new path.",
+        "status": "[x]"
+      }
+    ],
+    "remediation_proposals": [],
+    "conclusion": {
+      "score": "10/10 (Clinical Strike)",
+      "steering_query": "Imagery refreshed and report updated. Shall we commit the Portal artifacts?"
+    }
+  },
+  "attribution": "Lachesis (20260125-031320@localhost)"
+}

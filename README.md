@@ -42,9 +42,9 @@ A separate, vibrant venue located at **3152 Mission Street**. While independent 
 
 ---
 
-## 🎥 The PAPS
+## 🎥 Shaka Zuzalu Event
 
-<img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/cf578957-2929-46d2-b4ae-34eba58d8e86" />
+<img width="1280" height="720" alt="Shaka Zuzalu Event at Frontier Tower" src="2026/Q1/01/23/png/20260123-181312_Shaka_Zuzalu_Event.png" />
 
 ---
 
